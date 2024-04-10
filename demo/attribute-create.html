@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribue-create</title>
+</head>
+<body>
+
+    <img id="logo">
+    <script>
+        
+        const logo = document.getElementById("logo");
+
+        const src = document.createAttribute("src");
+        src.value = "https://sacode.web.id/assets/img/logo/logo-sacode.png";
+        logo.setAttributeNode(src);
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+</head>
+<body>
+
+    <img id="logo" src="https://sacode.web.id/assets/img/logo/logo-sacode.png" alt="logo">
+
+    <script>
+
+        // cara pertama
+        /* 
+        const logo = document.getElementById("logo");
+        const src = logo.getAttributeNode("src");
+
+        console.info(src.name);
+        console.info(src.value);
+        */
+        
+
+        // cara kedua
+        const logo = document.getElementById("logo");
+        const src = logo.getAttribute("src");
+
+        console.info(src);
+
+    </script>
+    
+</body>
+</html>
